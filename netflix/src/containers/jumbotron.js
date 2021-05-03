@@ -1,7 +1,7 @@
 import React from "react";
 import jumboData from "../fixtures/jumbo";
-import { Jumbotron } from "../components/jumbotron";
-export default function JumbotronContainer() {
+import { Jumbotron } from "../components";
+export function JumbotronContainer() {
   return (
     <Jumbotron.Container>
       {jumboData.map((item) => (

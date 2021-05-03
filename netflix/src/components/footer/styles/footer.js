@@ -11,7 +11,7 @@ export const Container = styled.div`
     padding: 70px 30px;
   }
 `;
-export default Column = styled.div`
+export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
